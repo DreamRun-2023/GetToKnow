@@ -97,6 +97,7 @@ header {
   align-items: center;
   padding: 35px 200px;
   transition: 0.5s ease;
+  width: 100vw;
 }
 
 .hero .head {
@@ -497,6 +498,7 @@ section {
   color: #c1cae8;
   font-weight: 600;
   font-size: 30px;
+  color: #ff0000;
 }
 .Event-para {
   color: #535a71 !important;
@@ -895,6 +897,7 @@ section {
 @media (max-width: 1040px) {
   header {
     padding: 12px 20px;
+    width: 100vw;
   }
   section {
     padding: 100px 20px;
@@ -915,6 +918,7 @@ section {
     justify-content: center;
     align-items: center;
     background: rgba(1, 1, 1, 0.5);
+    width: 100vw;
   }
   header .navigation .navigation-items a {
     color: #222;
@@ -1055,10 +1059,13 @@ section {
   .timer h2 {
     transform: scale(1);
   }
-  .bg h3,
+  /* .bg h3,
   .FAQ-sec h3,
   .events h3 {
     font-size: 0.7em;
+  } */
+  .answers p {
+    font-size: 0.7em
   }
   .media-icons {
     display: none !important;
