@@ -69,7 +69,7 @@ $(document).ready(function () {
   
   const currentYear = new Date().getFullYear();
   
-  const newYearTime = new Date(`April 2 ${currentYear} 00:00:00`);
+  const newYearTime = new Date(`April 9 ${currentYear} 00:00:00`);
   
   function updateTimer() {
     const currentTime = new Date();
