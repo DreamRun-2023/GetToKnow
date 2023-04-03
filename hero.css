@@ -613,6 +613,55 @@ section {
   color: #535a71;
   font-weight: light;
 }
+#sponsors {
+  scroll-margin: 30px;
+}
+
+.sponsors {
+  display: flex;
+  max-width: 1440px;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.sponsor-title {
+  font-size: 18px;
+}
+
+#sponsors {
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 50px 0;
+}
+
+.sponsor-container .card p {
+  font-family: "Space Grotesk", sans-serif;
+  margin-top: 30px;
+  font-size: 25px;
+  transform: uppercase;
+}
+
+.sponsor-container {
+  justify-content: center;
+  flex-direction: row !important;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.card {
+  background-color: transparent !important;
+  border: none !important;
+  align-items: center;
+}
+
+.sponsor-image {
+  mix-blend-mode: screen;
+  width: 240px;
+  min-height: 100px;
+}
+
 
 @media only screen and (min-width: 768px) {
   .timeline:before {
@@ -812,7 +861,6 @@ section {
   line-height: 1;
   transform: scale(1.5);
   margin: 20px 0;
-
 }
 
 .countdown h3 {
@@ -933,6 +981,8 @@ section {
     background: #fff;
     width: 600px;
     max-width: 600px;
+    /* position: relative;
+    top: -43px; */
     margin: 20px;
     padding: 40px;
     display: flex;
@@ -1065,7 +1115,7 @@ section {
     font-size: 0.7em;
   } */
   .answers p {
-    font-size: 0.7em
+    font-size: 0.7em;
   }
   .media-icons {
     display: none !important;
